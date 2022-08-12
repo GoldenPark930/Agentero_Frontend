@@ -1,0 +1,12 @@
+.feature-section .btn-learn.btn-learn {
+    border-color: #2DBC90;
+}
+
+.feature-section {
+    padding-top: 166px;
+    padding-bottom: 120px;
+}
+
+.feature-section .btn-learn.btn-learn {
+    margin-bottom: 0;
+}

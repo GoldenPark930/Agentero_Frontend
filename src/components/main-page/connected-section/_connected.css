@@ -1,0 +1,102 @@
+.connected-section {
+  background-color: #fff;
+  line-height: 1.2;
+  padding: 45px 20px;
+}
+
+.connected-section .connected-email {
+  background-color: #ffffff;
+  border: 1px solid rgba(6, 8, 68, 0.44);
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 47px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  padding: 0 17px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: top;
+  width: 340px;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .connected-section .connected-email::-webkit-input-placeholder {
+    text-align: center;
+  }
+
+  .connected-section .connected-email::-moz-placeholder {
+    text-align: center;
+  }
+
+  .connected-section .connected-email:-moz-placeholder {
+    text-align: center;
+  }
+
+  .connected-section .connected-email:-ms-input-placeholder {
+    text-align: center;
+  }
+} */
+
+.connected-section .connected-email::placeholder {
+  font-family: 'Roboto', sans-serif;
+}
+
+.connected-section .connected-btn {
+  background-color: #ffffff;
+  border: 1px solid #9293ad;
+  border-radius: 0;
+  color: #232937;
+  font-size: 16px;
+  height: 47px;
+  min-width: 122px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.connected-section .connected-btn:active,
+.connected-section .connected-btn.active {
+  background-color: #f8f8fa;
+}
+
+.connected-section .form-group {
+  width: 100%;
+}
+
+.connected-section .inputs-row {
+  display: flex;
+  justify-content: center;
+}
+
+.connected-section .inputs-row .email-wrap {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 575px) {
+  .connected-section .connected-btn#btnSignUp {
+    width: auto;
+  }
+}
+
+/* .connected-section .inputs-row .email-wrap .error-label {
+  flex-basis: 100%;
+} */
+
+@media (max-width: 388px) {
+  .connected-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#connected-form .form-group .connected-email,
+#connected-form .form-group .connected-btn,
+#connected-form .form-group .error-label {
+  margin-bottom: 0;
+}
+
+.connected-section__txt {
+  margin-bottom: 8px;
+}

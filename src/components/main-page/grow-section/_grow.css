@@ -1,0 +1,108 @@
+/*start header bg grow section*/
+
+.grow-section {
+    padding: 32px 135px 25px;
+    position: relative;
+}
+
+.grow-section .grow-section__box {
+    max-width: 520px;
+    width: 100%;
+}
+
+.grow-section .grow-section__title {
+    margin-bottom: 20px;
+}
+
+.grow-section .grow-section__txt {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.grow-section .btn__demo {
+    border: 1px solid #ffffff;
+    /*border-radius: 8px;*/
+    /*padding: 10px 20px;*/
+    padding: 19px 20px;
+}
+
+.grow-section .btn__demo:active,
+.grow-section .btn__demo.active,
+.agency-section .btn__demo:active,
+.agency-section .btn__demo.active,
+.optimize-section .btn__demo:active,
+.optimize-section .btn__demo.active,
+.revenue-section .btn__demo:active,
+.revenue-section .btn__demo.active,
+.digital-section .btn__demo:active,
+.digital-section .btn__demo.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #fff;
+    color: #fff;
+}
+
+.mb-100px {
+    margin-bottom: 100px;
+}
+
+.grow-section .rocket-svg {
+    display: inline-block;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+}
+
+.grow-section .path-topLeft {
+    left: 33px;
+    top: 85px;
+}
+
+.grow-section .path-bottomLeft {
+    bottom: 110px;
+    left: 572px;
+}
+
+.grow-section .path-topCenter {
+    right: 570px;
+    top: 130px;
+}
+
+.grow-section .path-bottomCenter {
+    right: 520px;
+    top: 170px;
+}
+
+.grow-section .path-topRight {
+    right: 158px;
+    top: 192px;
+}
+
+.grow-section .path-bottomRight {
+    bottom: 121px;
+    right: 109px;
+}
+
+.grow-section .path-bottomBottom {
+    bottom: 150px;
+    right: 95px;
+}
+
+#btnDemoMain {
+    padding: 0;
+    color: #2DBC90;
+    border-color: #2DBC90;
+    background-color: #ffffff;
+    width: 271px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 27px;
+}
+
+#btnDemoMain:hover,
+#btnDemoMain:active {
+    color: #27A37D;
+    border-color: #27A37D;
+    background-color: #F8F8FA;
+}

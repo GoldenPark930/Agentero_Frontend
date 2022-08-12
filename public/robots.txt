@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /directory-x
+Disallow: /directory-y
+Sitemap: https://www.agentero.com/sitemap.xml
+Host: https://www.agentero.com/
